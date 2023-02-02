@@ -1,0 +1,53 @@
+a{
+    text-decoration: none;
+    color: white;
+}
+.sidebar-container{
+    width: 15vw;
+    background-color: var(--secondary);
+    color: white;
+    height: 100vh;
+    max-height: 100vh;
+    position: fixed;
+}
+.app-logo{
+    width: 80%;
+    text-align: center;
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.half-title{
+    color: var(--primary);
+}
+
+.sidebar-list{
+    margin: 30px auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+.sidebar-list li{
+    width: 100%;
+    font-weight: bold;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0px;
+    padding: 10px 0;
+}
+.sidebar-list li:hover{
+    background-color: var(--primary);
+    color: var(--secondary);
+}
+.sidebar-list li a{
+    width: 100%;
+    padding-left: 25px;
+}
+.bi{
+    margin-right: 10px;
+}

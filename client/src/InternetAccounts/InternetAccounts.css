@@ -1,0 +1,16 @@
+.branch{
+    margin-bottom: 25px;
+}
+.branch_accounts{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3vw;
+}
+
+.account-card{
+    width: 45%;
+}
+
+.account_table th{
+    width: 30%;
+}

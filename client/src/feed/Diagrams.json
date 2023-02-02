@@ -1,0 +1,30 @@
+[
+    {
+        "branch":"a",
+        "network_diagram":{
+            "name":"Branch-A Network Diagram",
+            "img":"https://www.pngitem.com/pimgs/m/33-335785_network-diagram-computer-science-hd-png-download.png"
+        }
+    },
+    {
+        "branch":"b",
+        "network_diagram":{
+            "name":"Branch-A Network Diagram",
+            "img":"https://www.pngitem.com/pimgs/m/33-335785_network-diagram-computer-science-hd-png-download.png"
+        }
+    },
+    {
+        "branch":"c",
+        "network_diagram":{
+            "name":"Branch-A Network Diagram",
+            "img":"https://www.pngitem.com/pimgs/m/33-335785_network-diagram-computer-science-hd-png-download.png"
+        }
+    },
+    {
+        "branch":"d",
+        "network_diagram":{
+            "name":"Branch-A Network Diagram",
+            "img":"https://www.pngitem.com/pimgs/m/33-335785_network-diagram-computer-science-hd-png-download.png"
+        }
+    }
+]

@@ -1,0 +1,17 @@
+.branch{
+    margin-bottom: 25px;
+}
+.branch_firewalls{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2vw;
+}
+.branch_title{
+    margin-bottom: 10px;
+}
+.fw-card{
+    width: 40%;
+}
+.fw-table th{
+    width: 30%;
+}

@@ -1,0 +1,46 @@
+[
+    {
+        "branch":"a",
+        "firewalls":[
+            {
+                "name":"branch_a_firewall",
+                "model":"NSA-6650",
+                "software":"SonicOS Enhanced 6.5.4.4-44n",
+                "management_ip":"192.168.1.10"
+            }
+        ]
+    },
+    {
+        "branch":"b",
+        "firewalls":[
+            {
+                "name":"branch_a_firewall",
+                "model":"NSA-6650",
+                "software":"SonicOS Enhanced 6.5.4.4-44n",
+                "management_ip":"192.168.1.10"
+            }
+        ]
+    },
+    {
+        "branch":"c",
+        "firewalls":[
+            {
+                "name":"branch_a_firewall",
+                "model":"NSA-6650",
+                "software":"SonicOS Enhanced 6.5.4.4-44n",
+                "management_ip":"192.168.1.10"
+            }
+        ]
+    },
+    {
+        "branch":"d",
+        "firewalls":[
+            {
+                "name":"branch_a_firewall",
+                "model":"NSA-6650",
+                "software":"SonicOS Enhanced 6.5.4.4-44n",
+                "management_ip":"192.168.1.10"
+            }
+        ]
+    }
+]

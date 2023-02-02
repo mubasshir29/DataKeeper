@@ -1,0 +1,17 @@
+:root{
+  --primary : #0070f7;
+  --secondary: #242429;
+  --tertiary: #27292e;
+  --quaternary: #34373d;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body{
+  background-color: var(--tertiary);
+  color: white;
+}

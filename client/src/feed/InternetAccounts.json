@@ -1,0 +1,86 @@
+[
+    {
+        "branch":"a",
+        "internet_accounts":[
+            {
+                "provider":"Etisalat",
+                "account_no":"281113658",
+                "account_holder":"Mr.Saxena",
+                "bandwidth":"500 Mbps",
+                "support":"800511",
+                "comments":"Shared Connection with BQS"
+            },
+            {
+                "provider":"Du",
+                "account_no":"281113658",
+                "account_holder":"Mr.Saxena",
+                "bandwidth":"500 Mbps",
+                "support":"800511",
+                "comments":"Shared Connection with BQS"
+            }
+        ]
+    },
+    {
+        "branch":"b",
+        "internet_accounts":[
+            {
+                "provider":"Etisalat",
+                "account_no":"281113658",
+                "account_holder":"Mr.Saxena",
+                "bandwidth":"500 Mbps",
+                "support":"800511",
+                "comments":"Shared Connection with BQS"
+            },
+            {
+                "provider":"Du",
+                "account_no":"281113658",
+                "account_holder":"Mr.Saxena",
+                "bandwidth":"500 Mbps",
+                "support":"800511",
+                "comments":"Shared Connection with BQS"
+            }
+        ]
+    },
+    {
+        "branch":"c",
+        "internet_accounts":[
+            {
+                "provider":"Etisalat",
+                "account_no":"281113658",
+                "account_holder":"Mr.Saxena",
+                "bandwidth":"500 Mbps",
+                "support":"800511",
+                "comments":"Shared Connection with BQS"
+            },
+            {
+                "provider":"Du",
+                "account_no":"281113658",
+                "account_holder":"Mr.Saxena",
+                "bandwidth":"500 Mbps",
+                "support":"800511",
+                "comments":"Shared Connection with BQS"
+            }
+        ]
+    },
+    {
+        "branch":"d",
+        "internet_accounts":[
+            {
+                "provider":"Etisalat",
+                "account_no":"281113658",
+                "account_holder":"Mr.Saxena",
+                "bandwidth":"500 Mbps",
+                "support":"800511",
+                "comments":"Shared Connection with BQS"
+            },
+            {
+                "provider":"Du",
+                "account_no":"281113658",
+                "account_holder":"Mr.Saxena",
+                "bandwidth":"500 Mbps",
+                "support":"800511",
+                "comments":"Shared Connection with BQS"
+            }
+        ]
+    }
+]

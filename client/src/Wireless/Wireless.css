@@ -1,0 +1,33 @@
+.wireless-ssid-card{
+    background-color: var(--quaternary);
+    color: white;
+    padding: 0px 0px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 4px 2px rgba(0, 0, 0, 0.5);
+    margin-bottom: 30px;
+    width: 40%;
+}
+.wireless-card{
+    width: 40%;
+    margin-bottom: 25px;
+}
+.wireless-ssid-table{
+    width: 100%;
+    margin: 0 0;
+    border-collapse: collapse;
+}
+.wireless-ssid-table th{
+    width: 30%;
+}
+.wireless-table th{
+    width: 30%;
+}
+.wireless-ssid-table tr:first-child th:first-child{
+    border-top-left-radius: 10px;
+}
+.wireless-ssid-table tr:first-child th:last-child{
+    border-top-right-radius: 10px;
+}
+.branch_controllers{
+    margin-bottom: 50px;
+}

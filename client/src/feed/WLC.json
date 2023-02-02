@@ -1,0 +1,46 @@
+[
+    {
+        "branch":"a",
+        "controllers":[
+            {
+            "name":"Branch A-WLC",
+            "ip":"192.168.1.100",
+            "model":"WLC-9800-K",
+            "software":"IOS_X"
+            }
+        ]
+    },
+    {
+        "branch":"b",
+        "controllers":[
+            {
+            "name":"Branch A-WLC",
+            "ip":"192.168.1.100",
+            "model":"WLC-9800-K",
+            "software":"IOS_X"
+            }
+        ]
+    },
+    {
+        "branch":"c",
+        "controllers":[
+            {
+            "name":"Branch A-WLC",
+            "ip":"192.168.1.100",
+            "model":"WLC-9800-K",
+            "software":"IOS_X"
+            }
+        ]
+    },
+    {
+        "branch":"d",
+        "controllers":[
+            {
+            "name":"Branch A-WLC",
+            "ip":"192.168.1.100",
+            "model":"WLC-9800-K",
+            "software":"IOS_X"
+            }
+        ]
+    }
+]

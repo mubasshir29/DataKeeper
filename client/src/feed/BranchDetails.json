@@ -1,0 +1,34 @@
+[
+    {
+        "branch":"a",
+        "details":{
+            "branch_code":"a",
+		    "name": "Brnach A",
+		    "location": "Delhi"
+        }
+    },
+    {
+        "branch":"b",
+        "details":{
+            "branch_code":"b",
+		    "name": "Brnach B",
+		    "location": "Delhi"
+        }
+    },
+    {
+        "branch":"c",
+        "details":{
+            "branch_code":"c",
+		    "name": "Brnach C",
+		    "location": "Delhi"
+        }
+    },
+    {
+        "branch":"d",
+        "details":{
+            "branch_code":"d",
+		    "name": "Brnach D",
+		    "location": "Delhi"
+        }
+    }
+]
