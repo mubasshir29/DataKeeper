@@ -80,3 +80,16 @@ export const getFirewallDetails = async ()=>{
         console.log("Error in getting data",error)
     }
 }
+
+export const addSwitch = async (newSwitch)=>{
+    //console.log(newSwitch)
+    try{
+        const response = await axios.post(`${server}/new/switch`,newSwitch)
+        console.log("Response received", response.status)
+        //console.log("Response to Add Firewall",response.data)
+        return response;
+    }
+    catch(error){
+        console.log("Error in getting data",error)
+    }
+}

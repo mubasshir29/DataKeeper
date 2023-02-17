@@ -1,5 +1,5 @@
 import express from 'express'
-import {getHomeData, addBranch,getBranchDetails,addInternetConnection,getInternetDetails,getFirewallDetails,addFirewall} from './../Controllers/pageController.js'
+import {getHomeData, addBranch,getBranchDetails,addInternetConnection,getInternetDetails,getFirewallDetails,addFirewall,getSwitchDetails,addSwitch} from './../Controllers/pageController.js'
 const pageRouter = express.Router()
 
 pageRouter.get('/',getHomeData)
@@ -14,5 +14,9 @@ pageRouter.post('/new/connection',addInternetConnection)
 pageRouter.get('/firewall',getFirewallDetails)
 pageRouter.get('/firewall/:id',getFirewallDetails)
 pageRouter.post('/new/firewall',addFirewall)
+
+pageRouter.get('/switch',getSwitchDetails)
+pageRouter.get('/switch/:id',getSwitchDetails)
+pageRouter.post('/new/switch',addSwitch)
 
 export default pageRouter;

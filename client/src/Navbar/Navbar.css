@@ -1,6 +1,6 @@
 .navbar{
     background-color: var(--quaternary) ;
-    height: 8vh;
+    height: 80px;
     width: 85vw;
     color: white;
     display: flex;
