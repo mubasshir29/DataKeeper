@@ -1,12 +1,16 @@
-import React from 'react'
+import React,{useContext} from 'react'
 import './Switches.css'
-import switches from './../feed/Switches.json'
+import n_switches from './../feed/Switches.json'
+import {DataContext} from './../Utils/DataContextProvider.js'
 
 function Switches() {
-  console.log(switches)
+    const {switches} = useContext(DataContext)
+    console.log("Switches",switches)
+
+    //console.log(n_switches)
   return (
     <div className='page-container'>
-      {switches.map(entry => {
+      {n_switches.map(entry => {
             return (<div className='branch'><h3 className='branch_title'>Branch: {entry.branch}</h3>
             <div className='branch_firewalls'>
             {entry.switches.map(sw=>{

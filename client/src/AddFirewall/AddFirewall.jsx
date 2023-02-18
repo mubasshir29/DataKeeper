@@ -28,7 +28,7 @@ function AddFirewall() {
     const response = await addFirewall(firewall)
     console.log(response)
     if(response.status == 200){
-      navigate('/')
+      navigate('/settings')
     }
     else{
       window.alert("Error in adding firewall")

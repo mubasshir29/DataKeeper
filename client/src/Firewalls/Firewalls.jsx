@@ -1,20 +1,17 @@
 import React,{useContext} from 'react'
 import './Firewalls.css'
-import firewalls from './../feed/Firewalls.json'
 import {DataContext} from './../Utils/DataContextProvider.js'
 
 function Firewalls() {
-    const data = useContext(DataContext)
-    const {branches} = useContext(DataContext)
-    const allFirewalls = data.firewalls;
-    console.log(allFirewalls)
+    const {branches,firewalls} = useContext(DataContext)
+    console.log(firewalls)
     let firewallArray = []
 
     if(branches){
         branches.map(branch => {
-            if(allFirewalls){
+            if(firewalls){
                 let object = {"branch":branch.branch_code, "firewalls":[]}
-                allFirewalls.map(fw => {
+                firewalls.map(fw => {
                         if(object.branch == fw.branch){
                             object.firewalls.push(fw)
                         }

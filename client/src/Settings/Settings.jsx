@@ -8,7 +8,7 @@ import {DataContext} from './../Utils/DataContextProvider.js'
 
 function Settings() {
   const {branches} = useContext(DataContext)
-  console.log("Branches: ",branches)
+  //console.log("Branches: ",branches)
   return (
     <div className='page-container'>
         <div className='settings-page-container'>

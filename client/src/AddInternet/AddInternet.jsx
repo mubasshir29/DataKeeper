@@ -32,7 +32,7 @@ function AddInternet() {
     const response = await addInternetConnection(connection)
     console.log(response.status)
     if(response.status == 200){
-      navigate('/')
+      navigate('/settings')
     }
     else{
       window.alert("There is an error")

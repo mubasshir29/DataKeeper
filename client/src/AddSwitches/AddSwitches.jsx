@@ -29,7 +29,7 @@ function AddSwitches() {
     const response = await addSwitch(newSwitch)
     console.log(response)
     if(response.status == 200){
-      navigate('/')
+      navigate('/settings')
     }
     else{
       window.alert("Error in adding firewall")
