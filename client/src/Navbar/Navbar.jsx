@@ -8,10 +8,10 @@ function Navbar() {
             
         </div>
         <div className='navtabs-container'>
-            <button className='button'>
+            <button className='button gradient-6'>
                 Login
             </button>
-            <button className='button'>
+            <button className='button gradient-6'>
                 Profile
             </button>
         </div>

@@ -128,14 +128,14 @@ export const getSwitchDetails = async (req,res)=>{
     try{
         if(req.params.id){
             const id = req.params.id
-            const connection = switchModel.findOne({branch_code:id})
-            res.status(200).json(connection)
+            const Switch = switchModel.findOne({branch_code:id})
+            res.status(200).json(Switch)
         }
         else{
-            const firewalls = await switchModel.find()
+            const switches = await switchModel.find()
             // console.log("Request received at backend")
             // console.log(firewalls)
-            res.status(200).json(firewalls)
+            res.status(200).json(switches)
         }
     }
     catch(error){
@@ -161,8 +161,8 @@ export const getWLCDetails = async (req,res)=>{
     try{
         if(req.params.id){
             const id = req.params.id
-            const connection = wlcModel.findOne({branch_code:id})
-            res.status(200).json(connection)
+            const controller = wlcModel.findOne({branch_code:id})
+            res.status(200).json(controller)
         }
         else{
             const controllers = await wlcModel.find()
@@ -194,14 +194,14 @@ export const getAPDetails = async (req,res)=>{
     try{
         if(req.params.id){
             const id = req.params.id
-            const connection = wlcModel.findOne({branch_code:id})
-            res.status(200).json(connection)
+            const ap = apModel.findOne({branch_code:id})
+            res.status(200).json(ap)
         }
         else{
-            const controllers = await wlcModel.find()
+            const aps = await apModel.find()
             console.log("Request received at backend")
-            console.log(controllers)
-            res.status(200).json(controllers)
+            console.log(aps)
+            res.status(200).json(aps)
         }
     }
     catch(error){
@@ -227,19 +227,17 @@ export const getSSIDDetails = async (req,res)=>{
     try{
         if(req.params.id){
             const id = req.params.id
-            const connection = wlcModel.findOne({branch_code:id})
-            res.status(200).json(connection)
+            const ssid = ssidModel.findOne({branch_code:id})
+            res.status(200).json(ssid)
         }
         else{
-            const controllers = await wlcModel.find()
+            const ssids = await ssidModel.find()
             console.log("Request received at backend")
-            console.log(controllers)
-            res.status(200).json(controllers)
+            console.log(getSSIDDetails)
+            res.status(200).json(ssids)
         }
     }
     catch(error){
         console.log("Error:",error)
     }
 }
-
-addSSID,getSSIDDetails

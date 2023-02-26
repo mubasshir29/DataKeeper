@@ -17,7 +17,7 @@
 }
 .page-container{
   width: 100%;
-  padding: 30px 50px;
+  padding: 50px 50px;
   margin-top: 8vh;
   margin-left: 15vw;
   height: 100%;
@@ -46,10 +46,9 @@ table th{
   font-size: 1em;
 }
 .table{
-  width: 90%;
+  width: 100%;
   margin: 0 0;
   border-collapse: collapse;
-  
 }
 .table tr:first-child th{
   border-top-left-radius: 10px;
@@ -60,7 +59,7 @@ table th{
 .button{
   padding:8px 15px;
   background-color: var(--primary);
-  color: rgba(var(--primary));
+  color: rgba(var(--secondary));
   border: none;
   border-radius: 5px;
   margin: 0 10px;
@@ -109,7 +108,7 @@ table th{
 }
 .sub-form-element input{
   text-align: left;
-  background-color: var(--tertiary);
+  background-color: var(--secondary);
   padding: 5px;
   border: 1px solid var(--quaternary);
   color: white;
@@ -120,17 +119,22 @@ table th{
 }
 .form-element input{
   text-align: left;
-  background-color: var(--tertiary);
+  background-color: var(--secondary);
   padding: 5px;
   border: 1px solid var(--quaternary);
   color: white;
 }
 select{
   text-align: left;
-  background-color: var(--tertiary);
+  background-color: var(--secondary);
   padding: 5px;
-  border: 1px solid var(--quaternary);
+  border: 0px solid var(--quaternary);
   color: white;
+}
+select:focus{
+  outline: none;
+  border: none;
+  scroll-behavior: smooth;
 }
 .sub-form-element input:focus{
   outline: none;

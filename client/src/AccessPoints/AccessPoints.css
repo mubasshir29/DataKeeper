@@ -1,34 +1,34 @@
-.switch-table{
+.ap-table{
     width: 100%;
     margin: 10px 0;
     border-collapse: collapse;
     font-size: 0.9rem;
     table-layout: fixed;
   }
-.switch-table th{
+.ap-table th{
     padding: 5px;
   }
 .branch-ap-table{
     margin: 30px 0;
 }
-.switch-table th,td{
-  text-align: center;
+.ap-table th,td{
+  text-align: left;
   font-weight: lighter;
   color: rgb(235, 235, 235);
 }
 
-.switch-table tr:first-child th:first-child {
+.ap-table tr:first-child th:first-child {
   border-top-left-radius: 10px;
 }
-.switch-table tr:first-child th:last-child {
+.ap-table tr:first-child th:last-child {
   border-top-right-radius: 10px;
 }
-.switch-table tbody tr:nth-child(odd){
+.ap-table tbody tr:nth-child(odd){
   background-color: var(--tertiary)
 }
-.switch-table tbody tr:nth-child(odd){
+.ap-table tbody tr:nth-child(odd){
   background-color: var(--quaternary)
 }
-.switch-table .seq_no{
-    width: 5%;
+.ap-table .seq_no{
+  width: 5%;
 }

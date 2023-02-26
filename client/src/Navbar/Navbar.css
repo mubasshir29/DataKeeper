@@ -1,5 +1,5 @@
 .navbar{
-    background-color: var(--quaternary) ;
+    background-color: var(--tertiary) ;
     height: 80px;
     width: 85vw;
     color: white;
@@ -9,13 +9,12 @@
     align-items: center;
     position: fixed;
     left: 15vw;
-    box-shadow: 1px 1px 4px 2px rgba(0, 0, 0, 0.5);
+    box-shadow: 6px 6px 4px 2px rgba(0, 0, 0, 0.3);
     z-index: 2;
 }
 .navtabs-container button{
     padding:8px 15px;
-    background-color: var(--primary);
-    color: rgba(var(--primary));
+    color: rgb(219, 219, 219);
     border: none;
     border-radius: 5px;
     margin: 0 10px;

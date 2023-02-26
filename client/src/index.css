@@ -1,8 +1,23 @@
 :root{
-  --primary : #0070f7;
-  --secondary: #242429;
-  --tertiary: #2e3036;
-  --quaternary: #3d4046;
+  --primary : #4ab8a1;
+  --secondary: #181924;
+  --tertiary: #24252f;
+  --quaternary: #2a2b36;
+  --myyellow: #ffd464;
+  --mygreen:#4ab8a1;
+  --blue-light: #4437bd;
+  --blue-dark:#261f71;
+  --skyblue-light:#4696e4;
+  --skyblue-dark:#33628c;
+  --yellow-light:#e7b756;
+  --yellow-dark:#ac731d;
+  --red-light:#d06565;
+  --red-dark:#9f4444;
+  --pink-light:rgb(191, 111, 223);
+  --pink-dark:rgb(131, 81, 150);
+  --green-light:rgb(103, 174, 155);
+  --green-dark:rgb(43, 104, 90);
+
 }
 
 *{
@@ -12,6 +27,32 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 body{
-  background-color: var(--tertiary);
+  background-color: var(--secondary);
   color: white;
+}
+
+.gradient-1{
+  background: linear-gradient(45deg, var(--blue-light), var(--blue-dark));
+}
+.gradient-2{
+  background: linear-gradient(45deg, var(--skyblue-light), var(--skyblue-dark));
+}
+.gradient-3{
+  background: linear-gradient(45deg, var(--yellow-light), var(--yellow-dark));
+}
+.gradient-4{
+  background: linear-gradient(45deg, var(--red-light), var(--red-dark));
+}
+.gradient-5{
+  background: linear-gradient(45deg, var(--pink-light), var(--pink-dark));
+}
+.gradient-6{
+  background: linear-gradient(45deg, var(--green-light), var(--green-dark));
+}
+a:focus{
+  outline: none;
+}
+
+table th,td{
+  text-align: left;
 }

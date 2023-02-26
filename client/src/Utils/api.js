@@ -35,7 +35,7 @@ export const getAllBranches = async ()=>{
 
 export const addInternetConnection = async (connection)=>{
     try{
-        const response = await axios.post(`${server}/new/connection`,connection)
+        const response = await axios.post(`${server}/new/internet`,connection)
         // console.log("Response received", response.status)
         // console.log(response.data)
         return response;

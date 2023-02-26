@@ -17,6 +17,7 @@ import AddAP from './AddAP/AddAP';
 import AddSSID from './AddSSID/AddSSID';
 import AddDiagram from './AddDiagram/AddDiagram';
 import AddBranch from './AddBranch/AddBranch';
+import AccessPoints from './AccessPoints/AccessPoints';
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
           <Route exact path='/firewall' element={<Firewalls/>}/>
           <Route exact path='/switches' element={<Switches/>}/>
           <Route exact path='/wireless' element={<Wireless/>}/>
+          <Route exact path='/access-points' element={<AccessPoints/>}/>
           <Route exact path='/settings' element={<Settings/>}/>
           <Route exact path='/add-internet' element={<AddInternet/>}/>
           <Route exact path='/add-firewall' element={<AddFirewall/>}/>

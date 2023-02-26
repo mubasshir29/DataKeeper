@@ -1,10 +1,9 @@
 a{
     text-decoration: none;
-    color: white;
 }
 .sidebar-container{
     width: 15vw;
-    background-color: var(--secondary);
+    background-color: var(--quaternary);
     color: white;
     height: 100vh;
     max-height: 100vh;
@@ -32,7 +31,8 @@ a{
 }
 .sidebar-list li{
     width: 100%;
-    font-weight: bold;
+    font-weight: lighter;
+    color: rgb(227, 227, 227);
     font-size: 1rem;
     display: flex;
     align-items: center;
@@ -44,9 +44,17 @@ a{
     background-color: var(--primary);
     color: var(--secondary);
 }
+.sidebar-list li:hover a{
+    color: white;
+}
+
 .sidebar-list li a{
     width: 100%;
     padding-left: 25px;
+    color: rgb(175, 175, 175);
+}
+.sidebar-list li a:focus{
+    outline: none;
 }
 .bi{
     margin-right: 10px;

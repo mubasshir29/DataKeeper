@@ -18,9 +18,11 @@
 }
 .wireless-ssid-table th{
     width: 30%;
+    text-align: center;
 }
 .wireless-table th{
     width: 30%;
+    text-align: center;
 }
 .wireless-ssid-table tr:first-child th:first-child{
     border-top-left-radius: 10px;

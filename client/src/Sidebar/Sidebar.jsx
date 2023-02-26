@@ -12,7 +12,8 @@ function Sidebar() {
             <li><NavLink to='/internet'><i className="bi bi-globe"></i> Internet Accounts</NavLink></li>
             <li><NavLink to='/firewall'><i className="bi bi-shield-shaded"></i> Firewalls</NavLink></li>
             <li><NavLink to='/switches'><i className="bi bi-hdd-network-fill"></i> Switches</NavLink></li>
-            <li><NavLink to='/wireless'><i className="bi bi-router-fill"></i> Wireless</NavLink></li>
+            <li><NavLink to='/wireless'><i class="bi bi-wifi"></i> Wireless</NavLink></li>
+            <li><NavLink to='/access-points'><i class="bi bi-router-fill"></i> Access Points</NavLink></li>
             <li><NavLink to='/diagrams'><i className="bi bi-diagram-3-fill"></i> Diagrams</NavLink></li>
             <li><NavLink to='/settings'><i className="bi bi-gear-fill"></i> Settings</NavLink></li>
         </ul>

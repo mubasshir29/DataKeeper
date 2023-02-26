@@ -10,8 +10,11 @@
     margin-bottom: 10px;
 }
 .fw-card{
-    width: 40%;
+    width: 48%;
 }
 .fw-table th{
-    width: 30%;
+    width: 25%;
+}
+.fw-table td{
+    text-align: left;
 }

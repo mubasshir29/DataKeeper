@@ -9,7 +9,7 @@ pageRouter.post('/new/branch',addBranch)
 
 pageRouter.get('/internet',getInternetDetails)
 pageRouter.get('/internet/:id',getInternetDetails)
-pageRouter.post('/new/connection',addInternetConnection)
+pageRouter.post('/new/internet',addInternetConnection)
 
 pageRouter.get('/firewall',getFirewallDetails)
 pageRouter.get('/firewall/:id',getFirewallDetails)
