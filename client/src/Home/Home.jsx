@@ -58,7 +58,7 @@ function Home() {
             <img className='chart' src={chart}></img>
           </div>
           <div className='one-chart'>
-            <h3>Switches</h3>
+            <h3>Firewalls</h3>
             <img className='chart' src={chart}></img>
           </div>
           <div className='one-chart'>

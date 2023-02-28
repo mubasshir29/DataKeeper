@@ -6,13 +6,13 @@
     table-layout: fixed;
   }
 .ap-table th{
-    padding: 5px;
+    padding: 10px 5px;
   }
 .branch-ap-table{
     margin: 30px 0;
 }
 .ap-table th,td{
-  text-align: left;
+  text-align: center;
   font-weight: lighter;
   color: rgb(235, 235, 235);
 }
@@ -23,7 +23,7 @@
 .ap-table tr:first-child th:last-child {
   border-top-right-radius: 10px;
 }
-.ap-table tbody tr:nth-child(odd){
+.ap-table tbody tr:nth-child(even){
   background-color: var(--tertiary)
 }
 .ap-table tbody tr:nth-child(odd){

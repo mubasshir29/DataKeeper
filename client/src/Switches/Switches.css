@@ -6,7 +6,7 @@
     table-layout: fixed;
   }
 .switch-table th{
-    padding: 5px;
+  padding: 10px 5px;
   }
 .branch-ap-table{
     margin: 30px 0;
@@ -23,7 +23,7 @@
 .switch-table tr:first-child th:last-child {
   border-top-right-radius: 10px;
 }
-.switch-table tbody tr:nth-child(odd){
+.switch-table tbody tr:nth-child(even){
   background-color: var(--tertiary)
 }
 .switch-table tbody tr:nth-child(odd){
